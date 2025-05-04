@@ -31,6 +31,7 @@ Make sure you have the following tools installed:
 1. **Clone the Repository:**
 ```bash
 git clone https://github.com/Shannonsahdeo/Grid-Sketcher.git
+```
 
 **2. Open the Project:**
 
@@ -65,14 +66,14 @@ Right-click and select "Open with Live Server"
 --
 
 **## File Structure**
-
+```
 sketch-grid-helper/
 ├── index.html           # Main interface
 ├── style.css            # Styling and layout
 ├── script.js            # JavaScript logic for sketching, grid, tooltips
 ├── assets/              # (optional) for icons or example images
 └── README.md            # Project documentation
-
+```
 --
 
 **## Future Developments**
