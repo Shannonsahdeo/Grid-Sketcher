@@ -25,7 +25,7 @@ Make sure you have the following tools installed:
 - Live Server (VS Code extension)  
 - A modern browser (Chrome, Firefox, Edge)
 
----
+
 
 ### Steps
 1. **Clone the Repository:**
@@ -45,7 +45,7 @@ Open index.html
 
 Right-click and select "Open with Live Server"
 
---
+---
 
 **## Features**
 
@@ -63,7 +63,7 @@ Right-click and select "Open with Live Server"
 
 **- Export Canvas:** Save your sketch and grid as a high-resolution PNG
 
---
+---
 
 **## File Structure**
 ```
@@ -74,7 +74,7 @@ sketch-grid-helper/
 ├── assets/              # (optional) for icons or example images
 └── README.md            # Project documentation
 ```
---
+---
 
 **## Future Developments**
 
@@ -88,15 +88,15 @@ sketch-grid-helper/
 
 - Save project data for future sessions
 
---
+---
 
-**#Contribution**
+**## Contribution**
 
 This project is currently being developed for personal and academic use. Contributions are welcome through pull requests. If you'd like to suggest a feature or fix a bug, please open an issue.
 
---
+---
 
-**#License**
+**## License**
 
 This project is intended for educational and artistic use only. Do not redistribute or commercialize without permission.
 
