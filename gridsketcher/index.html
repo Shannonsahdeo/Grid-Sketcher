@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sketch Grid Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.17.0/dist/tf.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Sketch Grid Generator</h1>
+
+    <div class="controls">
+      <label>
+        Upload your image:
+        <input type="file" id="imageUploader" accept="image/*">
+      </label>
+
+      <label>
+        Select paper size:
+        <select id="paperSize">
+          <option value="A4">A4 (21x29.7cm)</option>
+          <option value="A3">A3 (29.7x42cm)</option>
+          <option value="custom">Custom</option>
+        </select>
+      </label>
+
+      <div id="customSizeInputs">
+        Width (cm): <input type="number" id="customWidth" placeholder="e.g. 20">
+        Height (cm): <input type="number" id="customHeight" placeholder="e.g. 30">
+      </div>
+
+      <label>
+        Orientation:
+        <select id="orientation">
+          <option value="portrait">Portrait</option>
+          <option value="landscape">Landscape</option>
+        </select>
+      </label>
+
+      <label>
+        Edge Detection Method:
+        <select id="edgeDetectionMethod">
+          <option value="basic">Basic (Sobel)</option>
+          <option value="ai">AI (TensorFlow)</option>
+        </select>
+      </label>
+
+      <button id="downloadBtn">Download PNG</button>
+    </div>
+
+    <canvas id="drawingCanvas" width="800" height="1000"></canvas>
+
+    <div id="coordinateDisplay">Hover over the canvas to see position</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
