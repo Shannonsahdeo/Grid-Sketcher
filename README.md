@@ -47,7 +47,7 @@ Right-click and select "Open with Live Server"
 
 ---
 
-**## Features**
+**## Features##**
 
 **- Upload Image:** Drag or upload any photo to convert to sketch
 
@@ -76,7 +76,7 @@ sketch-grid-helper/
 ```
 ---
 
-**## Future Developments**
+**## Future Developments##**
 
 - Toggle between sketch styles (ink, pencil, comic)
 
@@ -90,13 +90,13 @@ sketch-grid-helper/
 
 ---
 
-**## Contribution**
+**## Contribution##**
 
 This project is currently being developed for personal and academic use. Contributions are welcome through pull requests. If you'd like to suggest a feature or fix a bug, please open an issue.
 
 ---
 
-**## License**
+**## License##**
 
 This project is intended for educational and artistic use only. Do not redistribute or commercialize without permission.
 
